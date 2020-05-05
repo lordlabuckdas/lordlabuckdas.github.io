@@ -1,16 +1,14 @@
----
-layout: compress
-published: true
----
 <!DOCTYPE html>
-<html>
-  {% include head.html %}
-  <body>
-    <main class="wrapper">
-      {% include header.html %}
-      {{ content }}
-      {% include footer.html %}
-    </main>
-    {% include foot.html %}
-  </body>
+<html lang="en">
+<head>
+{% include meta_tags/base.html %}
+{% include externals/styling.html %}
+</head>
+<body>
+<div class="wrapper">
+{% include header.html %}
+{{ content }}
+</div>
+{% include externals/scripting.html %}
+</body>
 </html>
