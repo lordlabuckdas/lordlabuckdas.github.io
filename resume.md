@@ -8,8 +8,10 @@ subtitle:
 <br>
 
 ### SKILLS
-``` * Languages : C, C++, Python, Bash, SQL ```
-``` * Tools and Libraries : Docker, Git, Vim  ```  
+
+``` Languages : C, C++, Python, Bash, SQL ```
+
+``` Tools and Libraries : Docker, Git, Vim  ```  
 
 ### PROJECTS
 **MangaPy** - Manga Scraper - [Github](https://github.com/lordlabuckdas/mangapy) <span style="float: right; ">April 2020</span>  
