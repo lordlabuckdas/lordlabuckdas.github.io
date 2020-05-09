@@ -2,7 +2,7 @@
 layout: page
 title: "Oh, BTW I use Arch"
 subtitle: "4 hours and 43 tabs later..."
-date:   2016-05-09 22:22:22 +0530
+date:   2020-05-09 22:22:22 +0530
 categories: misc
 ---
 
