@@ -2,7 +2,7 @@
 
 # website
 
-> made using jekyll and pudhina.
+> made using [jekyll](https://jekyllrb.com/) and [pudhina](https://github.com/knhash/Pudhina).
 
 ## license
 
