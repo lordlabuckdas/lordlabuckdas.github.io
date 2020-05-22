@@ -136,7 +136,11 @@ enter pwd obtained from lvl 14
 nmap localhost -p 31000-32000 -sV -vv; openssl s_client -connect localhost:31790
 ```
 
-copy key and create temp file in /tmp/bandit16, then `chmod 600 key`
+copy key and create temp file in /tmp/bandit16, then
+
+```
+chmod 600 key
+```
 
 ```
 ssh bandit17@localhost -i key
@@ -213,7 +217,11 @@ code for test.sh:
 cat /etc/bandit_pass/bandit24 > password.txt
 ```
 
-change permissions: `chmod 777 test.sh; chmod 666 password.txt`
+change permissions:
+
+```
+chmod 777 test.sh; chmod 666 password.txt
+```
 
 ```
 cp test.sh /var/spool/bandit24
@@ -267,13 +275,19 @@ cat /etc/passwd | grep bandit26; cat /usr/bin/showtext; ssh -i bandit26.sshkey b
 
 make sure you decrease the size of the terminal so that the `more` command doesn't executed completely
 
-type v to access vim, then type, ```:e /etc/bandit_pass```
+type v to access vim, then type,
 
-copy password, then type ```:set shell:/bin/bash` and `:shell```
+```
+:e /etc/bandit_pass
+```
+
+copy password, then type `:set shell:/bin/bash` and `:shell`
 
 ### Level 27
 
-```./bandit27-do cat /etc/bandit_pass/bandit27```
+```
+./bandit27-do cat /etc/bandit_pass/bandit27
+```
 
 ### Level 28
 
@@ -327,7 +341,9 @@ cd repo; cat README.md; echo echo "May I come in?" > key.txt; git add key.txt -f
 
 ### Level 33
 
-```$0```
+```
+$0
+```
 
 ```
 cat /etc/bandit_pass/bandit33
