@@ -188,7 +188,7 @@ cd /etc/cron.d; cat cronjob_bandit22; cat /usr/bin/cronjob_bandit22.sh
 
 ```
 cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
-``` #finally
+```
 
 ### Level 23
 
@@ -198,7 +198,7 @@ cat /etc/cron.d/cronjob_bandit23; cat /usr/bin/cronjob_bandit23.sh; echo I am us
 
 ```
 cat /tmp/8ca319486bfbbc3663ea0fbe81326349
-``` #finally
+```
 
 ### Level 24
 
