@@ -22,7 +22,9 @@ write-up for overthewire's [bandit](https://overthewire.org/wargames/bandit/)
 
 ### Login / Level 0
 
-`ssh -l bandit0 -p 2220 bandit.labs.overthewire.org`
+```
+ssh -l bandit0 -p 2220 bandit.labs.overthewire.org
+```
 
 ### Level 1
 
