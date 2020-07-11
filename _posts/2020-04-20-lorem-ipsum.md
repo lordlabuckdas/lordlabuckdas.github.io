@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "the classic lorem ipsum"
+title: "lorem ipsum"
 description: "filler text, because hey, i don't have anything to say"
 comments: false
 keywords: "dummy content, lorem ipsum"

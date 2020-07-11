@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Cyber Security. Pink Floyd. Quentin Tarantino.
+I'm Krishnan SN. IIT Patna undergrad. Security enthusiast.
