@@ -4,4 +4,8 @@ title: About
 permalink: /about/
 ---
 
-I'm Krishnan SN. IIT Patna undergrad. Security enthusiast.
+### Cyber Security, Pink Floyd, Quentin Tarantino - in that order.
+
+I'm Krishnan SN. Electrical and Electronics undergraduate at IIT Patna. I do (read try) everything cyber sec.
+
+You can find me at [Github](https://github.com/lordlabuckdas).
