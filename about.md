@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-### Cyber Security, Pink Floyd, Quentin Tarantino - in that order.
+**Cyber Security, Pink Floyd, Quentin Tarantino - in that order.**
 
 I'm Krishnan SN. Electrical and Electronics undergraduate at IIT Patna. I do (read try) everything cyber sec.
 
