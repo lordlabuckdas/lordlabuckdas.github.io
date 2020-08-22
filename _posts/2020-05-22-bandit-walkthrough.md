@@ -6,9 +6,7 @@ comments: false
 keywords: ""
 ---
 
-# OverTheWire - Bandit
-
-write-up for overthewire's [bandit](https://overthewire.org/wargames/bandit/)
+# a write-up for overthewire's [bandit](https://overthewire.org/wargames/bandit/)
 
 **note :**
 
