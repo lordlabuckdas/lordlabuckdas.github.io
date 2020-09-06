@@ -1,6 +1,6 @@
 # Site settings
-title_left    : "Krishnan"
-title_right   : "SN" # default: ""
+title_left    : "Krish"
+title_right   : "na" # default: ""
 description   : "Blog"
 keywords      : "krishna, security, blog"
 url           : https://lordlabuckdas.github.io # site url
