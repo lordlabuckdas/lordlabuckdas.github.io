@@ -1,10 +1,14 @@
 source "https://rubygems.org"
-gemspec
+
+gem "jekyll", ">=3.8.6"
+
+# Official Plugins
 group :jekyll_plugins do
-    gem "jekyll-sitemap"
-    gem "bourbon"
-    gem "jekyll-paginate"
+  gem "jekyll-paginate"
+  gem "jekyll-redirect-from"
+  gem "jekyll-seo-tag", "~> 2.6.1"
 end
-gem 'html-proofer'
-gem 'tzinfo'
-gem 'tzinfo-data'
+
+group :test do
+  gem "html-proofer"
+end
