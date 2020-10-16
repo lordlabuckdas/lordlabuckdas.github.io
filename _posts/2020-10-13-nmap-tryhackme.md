@@ -97,7 +97,7 @@ link to a youtube vid that demonstrates nmap
 
 5. Perform an aggressive scan, what flag isn't set under the results for port 80? 
 
-    running `nmap -A $MACHINE_IP` tells us the `httponly` isn't set
+    running `nmap -A $MACHINE_IP` tells us the `httponly` flag isn't set
 
 6. Perform a script scan of vulnerabilities associated with this box, what denial of service (DOS) attack is this box susceptible to? Answer with the name for the vulnerability that is given as the section title in the scan output. A vuln scan can take a while to complete. In case you get stuck, the answer for this question has been provided in the hint, however, it's good to still run this scan and get used to using it as it can be invaluable. 
 
