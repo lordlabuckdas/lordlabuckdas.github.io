@@ -4,7 +4,7 @@ title: About
 
 **Hello there**, I'm a 2nd year Electrical and Electronics Engineering undergraduate from **Indian Institute of Technology, Patna**.
 
-I am a security enthusiast. I'm currently working on Web Application PenTesting. I'm fascinated by DevSecOps. I participate in CTFs and also put up their write-ups here in my blog. You can check them out here.
+I am a security enthusiast. I'm currently working on Web Application PenTesting. I'm fascinated by DevSecOps. I participate in CTFs and also put up their write-ups here in my blog. You can check them out [here](https://lordlabuckdas.github.io/tags/writeup/).
 
 My research interests include network security and cryptography.
 
@@ -13,3 +13,5 @@ I also co-lead the cybersecurity division of the computer club of my college, [N
 Occasionally, I practice competitive programming and listen to Pink Floyd.
 
 You can also reach out to me in Discord at `vastolorde#4259`.
+
+<script src="https://tryhackme.com/badge/206482"></script>
