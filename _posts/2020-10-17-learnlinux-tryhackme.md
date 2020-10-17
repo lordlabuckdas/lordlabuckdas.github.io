@@ -23,4 +23,4 @@ on switching user and seeing the contents of the file, it seemed like it had the
 
 this user `nootnoot` had superuser privs, so the flag was accessible now
 
-![yea root flag B|](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/linux/linux2.png)
+![yea root flag](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/linux/linux2.png)
