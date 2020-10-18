@@ -117,7 +117,7 @@ uhh intro
 
 1. Metasploit comes with a built-in way to run nmap and feed it's results directly into our database. Let's run that now by using the command 'db_nmap -sV BOX-IP'
 
-	![nmap scan results](https://github.com/lordlabuckdas/lordlabuckdas.github.io/blob/gh-pages/assets/img/tryhackme/metasploit/metasploit1.png)
+	![nmap scan results](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/metasploit/metasploit1.png)
 
 2. What service does nmap identify running on port 135?
 
@@ -127,19 +127,19 @@ uhh intro
 
 4. How about something else from the database, try the command 'services' now.
 
-	![services](https://github.com/lordlabuckdas/lordlabuckdas.github.io/blob/gh-pages/assets/img/tryhackme/metasploit/metasploit2.png)
+	![services](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/metasploit/metasploit2.png)
 
 5. One last thing, try the command 'vulns' now. This won't show much at the current moment, however, it's worth noting that Metasploit will keep track of discovered vulnerabilities. One of the many ways the database can be leveraged quickly and powerfully.
 
 6. Now that we've scanned our victim system, let's try connecting to it with a Metasploit payload. First, we'll have to search for the target payload. In Metasploit 5 (the most recent version at the time of writing) you can simply type 'use' followed by a unique string found within only the target exploit. For example, try this out now with the following command 'use icecast'. What is the full path for our exploit that now appears on the msfconsole prompt? \*This will include the exploit section at the start
 
-	![icecast](https://github.com/lordlabuckdas/lordlabuckdas.github.io/blob/gh-pages/assets/img/tryhackme/metasploit/metasploit3.png)
+	![icecast](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/metasploit/metasploit3.png)
 	
 	`exploit/windows/http/icecast_header`
 
 7. While that use command with the unique string can be incredibly useful that's not quite the exploit we want here. Let's now run the command 'search multi/handler'. What is the name of the column on the far left side of the console that shows up next to 'Name'? Go ahead and run the command `use NUMBER_NEXT_TO exploit/multi/handler` wherein the number will be what appears in that far left column (typically this will be 4 or 5). In this way, we can use our search results without typing out the full name/path of the module we want to use.
 
-	![search](https://github.com/lordlabuckdas/lordlabuckdas.github.io/blob/gh-pages/assets/img/tryhackme/metasploit/metasploit4.png)
+	![search](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/metasploit/metasploit4.png)
 	
 	`#`
 
@@ -161,7 +161,7 @@ uhh intro
 
 1. First things first, our initial shell/process typically isn't very stable. Let's go ahead and attempt to move to a different process. First, let's list the processes using the command 'ps'. What's the name of the spool service?
 
-	![ps](https://github.com/lordlabuckdas/lordlabuckdas.github.io/blob/gh-pages/assets/img/tryhackme/metasploit/metasploit5.png)
+	![ps](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/metasploit/metasploit5.png)
 	
 	`spoolsv.exe`
 
@@ -211,13 +211,13 @@ uhh intro
 
 1. et's go ahead and run the command `run autoroute -h`, this will pull up the help menu for autoroute. What command do we run to add a route to the following subnet: 172.18.1.0/24? Use the -n flag in your answer.
 
-	![autoroute help](https://github.com/lordlabuckdas/lordlabuckdas.github.io/blob/gh-pages/assets/img/tryhackme/metasploit/metasploit6.png)
+	![autoroute help](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/metasploit/metasploit6.png)
 	
 	`run autoroute -s 172.18.1.0 -n 255.255.255.0`
 
 2. Additionally, we can start a socks4a proxy server out of this session. Background our current meterpreter session and run the command `search server/socks4a`. What is the full path to the socks4a auxiliary module?
 
-	![socks search](https://github.com/lordlabuckdas/lordlabuckdas.github.io/blob/gh-pages/assets/img/tryhackme/metasploit/metasploit7.png)
+	![socks search](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/metasploit/metasploit7.png)
 	
 	`auxiliary/server/socks4a`
 
