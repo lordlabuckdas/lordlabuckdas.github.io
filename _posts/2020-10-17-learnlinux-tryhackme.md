@@ -3,8 +3,8 @@ title: "Learn Linux - TryHackMe"
 author: krishna
 description: "Walkthrough of Learn Linux from TryHackMe"
 date: 2020-10-17 00:00:00 +0530
-categories: [security, tryhackme]
-tags: [writeup]
+categories: [writeups, tryhackme]
+tags: [linux, privesc]
 ---
 
 **[Learn Linux from TryHackMe](https://tryhackme.com/room/zthlinux)**

@@ -3,8 +3,8 @@ title: "Bandit - OverTheWire"
 author: krishna
 description: "Walkthrough of Bandit CTF"
 date: 2020-05-22 22:22:22 +0530
-categories: [security, overthewire]
-tags: [writeup]
+categories: [writeups, overthewire]
+tags: [linux]
 ---
 
 a write-up for **overthewire's [bandit](https://overthewire.org/wargames/bandit/)**

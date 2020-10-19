@@ -3,8 +3,8 @@ title: "Google Dorking - TryHackMe"
 author: krishna
 description: "Walkthrough of Google Dorking Fundamentals from TryHackMe"
 date: 2020-10-14 22:22:22 +0530
-categories: [security, tryhackme]
-tags: [writeup]
+categories: [writeups, tryhackme]
+tags: [osint]
 ---
 
 **[Google Dorking from TryHackMe](https://tryhackme.com/room/googledorking)**

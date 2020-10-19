@@ -3,8 +3,8 @@ title: "Nmap - TryHackMe"
 author: krishna
 description: "Walkthrough of Nmap Fundamentals from TryHackMe"
 date: 2020-10-13 22:22:22 +0530
-categories: [security, tryhackme]
-tags: [writeup]
+categories: [writeups, tryhackme]
+tags: [tool]
 ---
 
 **[Nmap Fundamentals from TryHackMe](https://tryhackme.com/room/rpnmap)**

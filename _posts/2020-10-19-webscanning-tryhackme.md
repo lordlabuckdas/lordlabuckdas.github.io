@@ -3,8 +3,8 @@ title: "Web Scanning - TryHackMe"
 author: krishna
 description: "Walkthrough of Web Scanning from TryHackMe"
 date: 2020-10-19 00:00:00 +0530
-categories: [security, tryhackme]
-tags: [writeup]
+categories: [writeups, tryhackme]
+tags: [web, tool]
 ---
 
 **[Web Scanning from TryHackMe](https://tryhackme.com/room/rpwebscanning)**

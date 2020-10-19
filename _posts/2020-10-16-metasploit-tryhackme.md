@@ -3,8 +3,8 @@ title: "Metasploit - TryHackMe"
 author: krishna
 description: "Walkthrough of Metasploit from TryHackMe"
 date: 2020-10-16 22:22:22 +0530
-categories: [security, tryhackme]
-tags: [writeup]
+categories: [writeups, tryhackme]
+tags: [tool]
 ---
 
 **[Metasploit from TryHackMe](https://tryhackme.com/room/rpmetasploit)**
