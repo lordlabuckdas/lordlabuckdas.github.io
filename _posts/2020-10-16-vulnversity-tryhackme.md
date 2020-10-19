@@ -106,15 +106,15 @@ deployment B), lezz go
 
 	to find all such binaries, we can run `find / -perm -4000 2>/dev/null`
 
-		* `find` to search
+	* `find` to search
 
-		* `/` to start from the topmost directory
+	* `/` to start from the topmost directory
 
-		* `-perm` to specify permission value
+	* `-perm` to specify permission value
 
-		* `-4000` to specify SUID permission value of exactly 4000
+	* `-4000` to specify SUID permission value of exactly 4000
 
-		* `2 > /dev/null` to hide all the errors by redirecting stderr to null stream
+	* `2 > /dev/null` to hide all the errors by redirecting stderr to null stream
 
 	![sweet suid](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/vulnversity/vuln8.png)
 
