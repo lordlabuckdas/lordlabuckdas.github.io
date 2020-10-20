@@ -1,3 +1,12 @@
+---
+title: "Linux PrivEsc - TryHackMe (draft)"
+author: krishna
+description: "Walkthrough of Linux PrivEsc from TryHackMe"
+date: 2020-10-20 00:00:00 +0530
+categories: [writeups, tryhackme]
+tags: [privesc]
+---
+
 **[Linux PrivEsc](https://tryhackme.com/room/linuxprivesc)**
 
 ## Task 1 - Deploy the Vulnerable Debian VM
