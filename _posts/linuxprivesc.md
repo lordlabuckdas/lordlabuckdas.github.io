@@ -246,4 +246,4 @@ v informative
 
 nice scripts
 
-v cool, thank you, creator of this room!
+*v cool, thank you, creator of this room!*
