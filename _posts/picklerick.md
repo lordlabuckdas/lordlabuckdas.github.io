@@ -1,5 +1,5 @@
 ---
-title: "Pickle Rick - TryHackMe (draft)"
+title: "Pickle Rick - TryHackMe"
 author: krishna
 description: "Walkthrough of Pickle Rick from TryHackMe"
 date: 2020-10-21 00:00:00 +0530
@@ -11,7 +11,7 @@ tags: [web, linux, privesc, ctf]
 
 the description says that there is a web server up and running, so we go to the IP
 
-picklerick1.png)
+![homepage](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/picklerick/picklerick1.png)
 
 so we have to ssh into the system and get the ingredients
 
