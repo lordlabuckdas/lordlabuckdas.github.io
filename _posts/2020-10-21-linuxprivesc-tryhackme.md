@@ -4,7 +4,7 @@ author: krishna
 description: "Walkthrough of Linux PrivEsc from TryHackMe"
 date: 2020-10-21 00:00:00 +0530
 categories: [writeups, tryhackme]
-tags: [privesc]
+tags: [privesc, linux]
 ---
 
 **[Linux PrivEsc](https://tryhackme.com/room/linuxprivesc)**
