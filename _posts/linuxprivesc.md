@@ -1,5 +1,5 @@
 ---
-title: "Linux PrivEsc - TryHackMe (draft)"
+title: "Linux PrivEsc - TryHackMe"
 author: krishna
 description: "Walkthrough of Linux PrivEsc from TryHackMe"
 date: 2020-10-21 00:00:00 +0530
