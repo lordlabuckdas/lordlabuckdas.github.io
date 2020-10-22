@@ -1,3 +1,12 @@
+---
+title: "Crack the Hash - TryHackMe (draft)"
+author: krishna
+description: "Walkthrough of Crack the Hash from TryHackMe"
+date: 2020-10-23 00:00:00 +0530
+categories: [writeups, tryhackme]
+tags: [crypto]
+---
+
 **[Crack the Hash from TryHackMe](https://tryhackme.com/room/crackthehash)**
 
 ## Task 1 - Level 1
