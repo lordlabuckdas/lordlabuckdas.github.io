@@ -1,3 +1,12 @@
+---
+title: "Simple CTF - TryHackMe"
+author: krishna
+description: "Walkthrough of Simple CTF from TryHackMe"
+date: 2020-10-22 00:00:00 +0530
+categories: [writeups, tryhackme]
+tags: [web, linux, privesc]
+---
+
 **[Simple CTF from TryHackMe](https://tryhackme.com/room/easyctf)**
 
 running our usual nmap scan, we get
