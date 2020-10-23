@@ -11,7 +11,7 @@ tags: [web, linux, privesc]
 
 running our usual nmap scan, we get
 
-simplectf1.png)
+![nmap scan](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/simplectf/simplectf1.png)
 
 * we see that ftp is running at port 21 with anonymous ftp enabled
 
@@ -21,21 +21,21 @@ simplectf1.png)
 
 then i ran `gobuster` on the machine to get this
 
-simplectf2.png)
+![gobuster scan](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/simplectf/simplectf2.png)
 
 the 3rd question involved CVEs, so i ran `nmap -A $MACHINE_IP -oX simplectf_nmap.xml` and then ran it through `searchsploit`
 
-simplectf3.png)
+![searchsploitXnmap](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/simplectf/simplectf3.png)
 
 but i didn't get any match for openssh exploit CVEs and other servies were not very conclusive, so i returned to the `gobuster` output and web-based vulns
 
 the `/simple` directory was interesting
 
-simplectf4.png)
+![cms made v simple for me](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/simplectf/simplectf4.png)
 
 so, **cms made simple** is there and we also get a lot of results in `searchsploit`
 
-simplectf5.png)
+![cms made simple X searchsploit](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/simplectf/simplectf5.png)
 
 the version of cms being used was **2.2.8**, so i searched for an exploit that was just after it and i found, `CMS Made Simple < 2.2.10 - SQL Injection`
 
@@ -47,7 +47,7 @@ i had trouble getting the right salt :-( tried for about 2 hrs :-(. so i got the
 
 so then i ran `ssh mitch@$MACHINE_IP` and entered the password (not gonna reveal it here, yea don't remark the irony)
 
-simplectf6.png)
+![sshed in and user flag](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/simplectf/simplectf6.png)
 
 as visible, the other user present is `sunbath`
 
@@ -63,4 +63,4 @@ ok it's ezpz now, just launch `vim` with `sudo` and spawn a shell with `:sh`
 
 now we have root shell, so we `cat` the `root` flag with `cat /root/root.txt`
 
-simplectf7.png)
+![ez privesc and root flag](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/simplectf/simplectf7.png)
