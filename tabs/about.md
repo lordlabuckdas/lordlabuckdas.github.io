@@ -12,6 +12,6 @@ I also co-lead the cybersecurity division of the computer club of my college, [N
 
 Occasionally, I practice competitive programming, design bad-looking websites and listen to Pink Floyd.
 
-You can also reach out to me in Discord at `vastolorde#4259`.
+You can also reach out to me in Discord at `vastolorde#4259` or mail me at `krishnan_1901ee50[at]iitp[dot]ac[dot]in`.
 
 <script src="https://tryhackme.com/badge/206482"></script>
