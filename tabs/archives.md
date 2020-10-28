@@ -2,6 +2,10 @@
 title: Archives
 type: archives
 # The Archives of posts.
+# v2.0
+# https://github.com/cotes2020/jekyll-theme-chirpy
+# © 2017-2019 Cotes Chung
+# MIT License
 ---
 
 <div id="archives" class="pl-xl-2">
