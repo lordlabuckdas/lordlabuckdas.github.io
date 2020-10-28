@@ -2,6 +2,10 @@
 title: Categories
 type: categories
 # All the Categories of posts
+# v2.0
+# https://github.com/cotes2020/jekyll-theme-chirpy
+# © 2017-2019 Cotes Chung
+# MIT License
 ---
 
 {% assign HEAD_PREFIX = "h_" %}
@@ -60,8 +64,9 @@ type: categories
 
       <!-- arrow -->
       {% if sub_categories_size > 0%}
-      <a href="#{{ LIST_PREFIX }}{{ group_index }}" data-toggle="collapse" aria-expanded="true"
-          class="category-trigger hide-border-bottom">
+      <a href="#{{ LIST_PREFIX }}{{ group_index }}" data-toggle="collapse" 
+        aria-expanded="true" aria-label="{{ HEAD_PREFIX }}{{ group_index }}-trigger" 
+        class="category-trigger hide-border-bottom">
         <i class="fas fa-fw fa-angle-down"></i>
       </a>
       {% else %}
