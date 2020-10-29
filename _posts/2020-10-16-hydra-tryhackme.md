@@ -27,11 +27,11 @@ for the wordlists, i used ***rockyou.txt***. in kali, it is present in `/usr/sha
 
 	it is given that the username is molly. therefore, the hydra command would be `hydra -l molly -P /usr/share/wordlists/rockyou.txt.gz $MACHINE_IP http-post-form "/login:username=^USER^&password=^PASS^:F=incorrect" -V`
 
-	![bruteforcing the login page](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/hydra/hydra1.png)
+	![bruteforcing the login page](../../assets/img/tryhackme/hydra/hydra1.png)
 
 	the ***flag*** then appears with some disney background idk xD
 
-	![getting the flag](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/hydra/hydra2.png)
+	![getting the flag](../../assets/img/tryhackme/hydra/hydra2.png)
 
 2. Use Hydra to bruteforce molly's SSH password. What is flag 2?
 
@@ -39,6 +39,6 @@ for the wordlists, i used ***rockyou.txt***. in kali, it is present in `/usr/sha
 
 	then after ssh-ing into molly's system using the password, the ***flag*** is present in `flag2.txt` right in the home directory
 
-	![the bruteforce, the access and the flag](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/hydra/hydra3.png)
+	![the bruteforce, the access and the flag](../../assets/img/tryhackme/hydra/hydra3.png)
 
 real nice room.
