@@ -8,17 +8,17 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Krishnan S N                          # the main title
+title: krishna                          # the main title
 
 tagline: Security enthusiast. <br>Sophomore at IIT Patna.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  portfolio of Krishnan S N, IIT Patna. Security Enthusiast.
+  ooh, whomst have stumbled upon my website.
 
 # Replace with the website url, e.g. 'https://username.github.io'
 url: 'https://lordlabuckdas.github.io'
 
-author: Krishnan S N                  # change to your full name
+author: SNK                  # change to your full name
 
 avatar: /assets/img/sample/avatar.jpg   # support internet resources
 
@@ -29,17 +29,13 @@ twitter:
   username:             # change to your twitter username
 
 social:
-  name: Krishnan S N                  # it will shows as the copyright owner in Footer
+  name: krishna                  # it will shows as the copyright owner in Footer
   email:              # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/username      # change to your twitter homepage
     - https://github.com/lordlabuckdas       # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/krishnan11
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+google_site_verification: SDL-QIMhIBwqdmefuhNWQ2T4qT8UWglsHHJtnO3OglM # change to your verification string
 
 #--------------------------
 
@@ -63,6 +59,7 @@ google_analytics:
     cache: false  # pv data local cache, good for the users from GFW area.
 
 disqus:
+  # don't nned your opinion lol
   comments: false  # boolean type, the global switch for posts comments.
   shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
