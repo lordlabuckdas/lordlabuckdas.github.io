@@ -47,7 +47,7 @@ should i keep mentioning about how you should be running `<tool> --help` and `gr
 
 8. Let's scan our target machine, what web server do we discover and what version is it?
 
-	![nikto scan](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/webscan/webscan1.png)
+	![nikto scan](../../assets/img/tryhackme/webscan/webscan1.png)
 
 	`Apache/2.4.7`
 
