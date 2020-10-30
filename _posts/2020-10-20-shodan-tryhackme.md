@@ -21,7 +21,7 @@ nice - ping, get ip, search [ultratools](https://www.ultratools.com/tools/asnInf
 
 1. What is Google's ASN number?
 
-	![ultratools search](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/shodan/shodan1.png)
+	![ultratools search](../../assets/img/tryhackme/shodan/shodan1.png)
 
 	`AS15169`
 
@@ -31,7 +31,7 @@ nice - ping, get ip, search [ultratools](https://www.ultratools.com/tools/asnInf
 
 3. Where are most of the machines on this ASN number, physically in the world?
 
-	![shodan search](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/shodan/shodan2.png)
+	![shodan search](../../assets/img/tryhackme/shodan/shodan2.png)
 
 	`United States`
 
@@ -41,7 +41,7 @@ nice - ping, get ip, search [ultratools](https://www.ultratools.com/tools/asnInf
 
 5. What SSH product does Google use?
 
-	![ssh product](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/shodan/shodan3.png)
+	![ssh product](../../assets/img/tryhackme/shodan/shodan3.png)
 
 	`OpenSSH`
 
@@ -67,9 +67,9 @@ nifty search features
 
 	`Hypertext Transfer Protocol`
 
-	![web server](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/shodan/-shodan5.png)
+	![web server](../../assets/img/tryhackme/shodan/-shodan5.png)
 
-	![http or https ig](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/shodan/shodan6.png)
+	![http or https ig](../../assets/img/tryhackme/shodan/shodan6.png)
 
 4. Under Google's ASN, what is the most popular city?
 
@@ -79,13 +79,13 @@ nifty search features
 
 	`PAN-OS`
 
-	![hmm pan os ay?](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/shodan/shodan7.png)
+	![hmm pan os ay?](../../assets/img/tryhackme/shodan/shodan7.png)
 
 6. Using the top Webcam search from the explore page, does Google's ASN have any webcams? Yay / nay.
 
 	`Nay`
 
-	![nice, no webcams up](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/shodan/shodan8.png)
+	![nice, no webcams up](../../assets/img/tryhackme/shodan/shodan8.png)
 
 ## Task 5 - Exploring the API & Conclusion
 
