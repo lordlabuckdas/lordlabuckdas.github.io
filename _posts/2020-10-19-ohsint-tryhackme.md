@@ -15,7 +15,7 @@ tags: [osint]
 
 	running `strings WindowsXP.jpg | head -n 30` told me that there was exif data in it, so ran it with `exiftool` to curate and retrieve them properly
 
-	![exif dump](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/ohsint/ohsint1.png)
+	![exif dump](../../assets/img/tryhackme/ohsint/ohsint1.png)
 
 	this told me that the author's name was probably **OWood Flint**, so a simple google search led to his:
 
@@ -25,7 +25,7 @@ tags: [osint]
 
 	* [github project](https://github.com/OWoodfl1nt/people_finder)
 
-	![twitter](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/ohsint/ohsint2.png)
+	![twitter](../../assets/img/tryhackme/ohsint/ohsint2.png)
 
 	the twitter acccount had the profile picture of a `cat`
 
@@ -35,7 +35,7 @@ tags: [osint]
 
 	after creating an account on [wiggle](https://wigle.net/), an advanced search with the BSSID will give us more info
 
-	![wiggle search](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/ohsint/ohsint3.png)
+	![wiggle search](../../assets/img/tryhackme/ohsint/ohsint3.png)
 
 	on clicking the map hyperlink, we get to know he lives in `London`
 
@@ -61,4 +61,4 @@ tags: [osint]
 
 	the source code of his post has the word `pennYDr0pper.!` in it, which matches the flag format
 
-	![source code](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/ohsint/ohsint4.png)
+	![source code](../../assets/img/tryhackme/ohsint/ohsint4.png)
