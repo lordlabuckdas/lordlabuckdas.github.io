@@ -51,24 +51,24 @@ if you don't get proper results with one hashing format, move onto the next (`ha
 
 ## Task 2 - Level 2
 
-1. Hash: F09EDCB1FCEFC6DFB23DC3505A882655FF77375ED8AA2D1C13F640FCCC2D0C85
+1. *Hash:* F09EDCB1FCEFC6DFB23DC3505A882655FF77375ED8AA2D1C13F640FCCC2D0C85
 
 	`paule` - **SHA256** (again)
 
-2. Hash: 1DFECA0C002AE40B8619ECF94819CC1B
+2. *Hash:* 1DFECA0C002AE40B8619ECF94819CC1B
 
 	`n63umy8lkf4i` - **NTLM** (yea had to try a lot of other formats before this one)
 
-3. Hash: $6$aReallyHardSalt$6WKUTqzq.UQQmrm0p/T7MPpMbGNnzXPMAXi4bJMl9be.cfi3/qxIf.hsGpS41BqMhSrHVXgMpdjS6xeKZAs02.
+3. *Hash:* $6$aReallyHardSalt$6WKUTqzq.UQQmrm0p/T7MPpMbGNnzXPMAXi4bJMl9be.cfi3/qxIf.hsGpS41BqMhSrHVXgMpdjS6xeKZAs02.
 
-	Salt: aReallyHardSalt
+	*Salt:* aReallyHardSalt
 
-	Rounds: 5
+	*Rounds:* 5
 
 	`waka99` - **SHA512**
 
-4. Hash: e5d8870e5bdd26602cab8dbe07a942c8669e56d6
+4. *Hash:* e5d8870e5bdd26602cab8dbe07a942c8669e56d6
 
-	Salt: tryhackme
+	*Salt:* tryhackme
 
 	`481616481616` - **HMAC-SHA1** (many SHA1s before this)
