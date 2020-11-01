@@ -5,6 +5,7 @@ description: "Walkthrough of Pickle Rick from TryHackMe"
 date: 2020-10-21 00:00:00 +0530
 categories: [writeups, tryhackme]
 tags: [web, linux, privesc, ctf]
+pin: true
 ---
 
 **[Pickle Rick from TryHackMe](https://tryhackme.com/room/picklerick)**
