@@ -53,7 +53,7 @@ as visible, the other user present is `sunbath`
 
 then i ran `sudo -l` to see which programs i'm (ok mitch) is allowed to run as root
 
-```bash
+```terminal
 $ sudo -l
 User mitch may run the following commands on Machine:
     (root) NOPASSWD: /usr/bin/vim
