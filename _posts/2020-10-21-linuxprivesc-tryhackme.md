@@ -75,7 +75,7 @@ running `sudo -l` we get to see the privileges of the current user,
 
 	unfortunately, i did not find a solid way to take advantage of this program, but `sudo /usr/sbin/apache2 -f /etc/passwd` returns us the first line of the file with an error message related to bad config file
 
-	```bash
+	```terminal
 	user@debian:~$ sudo /usr/sbin/apache2 -f /etc/passwd
 	Syntax error on line 1 of /etc/passwd:
 	Invalid command 'root:x:0:0:root:/root:/bin/bash', perhaps misspelled or defined by a module not included in the server configuration
@@ -212,7 +212,7 @@ so, in bash versions less than 4.4 and above, we could define the PS4 variable t
 
 ## Task 16 - Passwords & Keys - History Files
 
-```bash
+```terminal
 user@debian:~$ cat ~/.*history | grep mysql
 mysql -h somehost.local -uroot -ppassword123
 user@debian:~$
