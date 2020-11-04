@@ -47,7 +47,7 @@ some questions irked me because of the exact pattern the right answer must be, b
 
 1. What is the CVE for the 2020 Cross-Site Scripting (XSS) vulnerability found in WPForms?
 
-	```bash
+	```terminal
 	$ searchsploit wpforms -w
 	$ curl $EXPLOITDB_LINK | grep CVE
 	```
