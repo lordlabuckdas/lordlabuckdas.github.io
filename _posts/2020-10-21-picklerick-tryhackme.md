@@ -22,15 +22,15 @@ the source code of the page tells us that the username is `R1ckRul3s`
 
 ok, i was wrong because ssh gave me this
 
-```bash
-➜  ~ ssh R1ckRul3s@10.10.145.211
+```terminal
+$ ssh R1ckRul3s@10.10.145.211
 R1ckRul3s@10.10.145.211: Permission denied (publickey).
 ```
 
 and gobuster gave me this
 
-```bash
-➜  ~ gobuster dir -u http://10.10.145.211 -w /usr/share/wordlists/dirb/common.txt -x .php
+```terminal
+$ gobuster dir -u http://10.10.145.211 -w /usr/share/wordlists/dirb/common.txt -x .php
 ===============================================================
 Gobuster v3.0.1
 by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
@@ -65,8 +65,8 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 
 so, `robots.txt` contains just `Wubbalubbadubdub`.
 
-```bash
-➜  ~ curl http://10.10.145.211/robots.txt
+```terminal
+$ curl http://10.10.145.211/robots.txt
 Wubbalubbadubdub
 ```
 
@@ -88,8 +88,8 @@ so, i `cat`-ed the contents of `Sup3rS3retPickl3Ingred.txt` for the 1st ingredie
 
 there was another file of interest named `clue.txt` that said
 
-```bash
-➜  ~ curl http://10.10.145.211/clue.txt
+```terminal
+$ curl http://10.10.145.211/clue.txt
 Look around the file system for the other ingredient.
 ```
 
