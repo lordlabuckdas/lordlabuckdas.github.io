@@ -3,6 +3,11 @@ title: Projects
 # a category to showcase my projects
 ---
 
+## GTFOO - [Link](https://github.com/lordlabuckdas/gtfoo) (WIP)
+
+* cli helper program for [GTFOBins](https://gtfobins.github.io/) written in `go`
+* fetches all data regarding the queried term from gtfobins
+
 ## NetScaPy - [Link](https://github.com/lordlabuckdas/netscapy)
 
 * network scanner written in `python` using [`scapy`](https://scapy.net/)
@@ -24,4 +29,4 @@ title: Projects
 ## Skripts - [Link](https://github.com/lordlabuckdas/skripts)
 
 * collection of few handy scripts written in `bash` and `python` to automate and fasten day-to-day processes
-* includes scripts to fetch *this week in history*, *shorten url from cli* and more
+* includes cli scripts to fetch *this week in history*, *shorten url* and more
