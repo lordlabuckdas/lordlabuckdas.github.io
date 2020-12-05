@@ -43,7 +43,7 @@ just basic setup
 
 1. Let's run sublist3r now against nbc.com, a fairly large American news company. Run this now with the command: `python3 sublist3r.py -d nbc.com -o sub-output-nbc.txt`
 
-	![sublister results](../../assets/img/tryhackme/sublister/sublister1.png)
+	![sublister results](/assets/img/tryhackme/sublister/sublister1.png)
 
 2. Once that completes open up your results and take a look through them. Email domains are almost always interesting and typically have an email portal (usually Outlook) located at them. Which subdomain is likely the email portal? 
 

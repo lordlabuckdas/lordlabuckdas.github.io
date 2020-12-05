@@ -17,7 +17,7 @@ deployment B), lezz go
 
 1. Scan this box: `nmap -sV <machines ip>`
 
-	![nmap scan results](../../assets/img/tryhackme/vulnversity/vuln1.png)
+	![nmap scan results](/assets/img/tryhackme/vulnversity/vuln1.png)
 
 2. Scan the box, how many ports are open?
 
@@ -49,15 +49,15 @@ deployment B), lezz go
 
 1. Now lets run GoBuster with a wordlist: `gobuster dir -u http://<ip>:3333 -w <word list location>`
 
-	![gobuster help](../../assets/img/tryhackme/vulnversity/vuln2.png)
+	![gobuster help](/assets/img/tryhackme/vulnversity/vuln2.png)
 
 2. What is the directory that has an upload form page?
 
-	![go gobuster](../../assets/img/tryhackme/vulnversity/vuln3.png)
+	![go gobuster](/assets/img/tryhackme/vulnversity/vuln3.png)
 	
 	`/internal/`
 
-	![/internal/index.php](../../assets/img/tryhackme/vulnversity/vuln4.png)
+	![/internal/index.php](/assets/img/tryhackme/vulnversity/vuln4.png)
 
 ## Task 4 - Compromise the webserver
 
@@ -65,7 +65,7 @@ deployment B), lezz go
 
 	on uploading a `.php` file,
 	
-	![hey not allowed](../../assets/img/tryhackme/vulnversity/vuln5.png)
+	![hey not allowed](/assets/img/tryhackme/vulnversity/vuln5.png)
 
 2. To identify which extensions are not blocked, we're going to fuzz the upload form. To do this, we're doing to use BurpSuite. If you are unsure to what BurpSuite is, or how to set it up please complete our [BurpSuite room](https://tryhackme.com/room/rpburpsuite) first.
 
@@ -88,7 +88,7 @@ deployment B), lezz go
 
 	when we go to the URL,
 
-	![boom access](../../assets/img/tryhackme/vulnversity/vuln6.png)
+	![boom access](/assets/img/tryhackme/vulnversity/vuln6.png)
 
 	now, we have spawned a shell
 
@@ -98,7 +98,7 @@ deployment B), lezz go
 
 6. What is the user flag?
 
-	![yea flag B)](../../assets/img/tryhackme/vulnversity/vuln7.png)
+	![yea flag B)](/assets/img/tryhackme/vulnversity/vuln7.png)
 
 ## Task 5 - Privilege Escalation 
 
@@ -116,7 +116,7 @@ deployment B), lezz go
 
 	* `2 > /dev/null` to hide all the errors by redirecting stderr to null stream
 
-	![sweet suid](../../assets/img/tryhackme/vulnversity/vuln8.png)
+	![sweet suid](/assets/img/tryhackme/vulnversity/vuln8.png)
 
 	`/bin/systemctl` is of importance here as you will see in the next question
 
@@ -141,4 +141,4 @@ deployment B), lezz go
 
 	then to view the flag, `cat /tmp/theFLAG`
 
-	![yea root flag B)](../../assets/img/tryhackme/vulnversity/vuln9.png)
+	![yea root flag B)](/assets/img/tryhackme/vulnversity/vuln9.png)

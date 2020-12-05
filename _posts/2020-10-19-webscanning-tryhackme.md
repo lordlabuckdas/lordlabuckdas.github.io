@@ -47,7 +47,7 @@ should i keep mentioning about how you should be running `<tool> --help` and `gr
 
 8. Let's scan our target machine, what web server do we discover and what version is it?
 
-	![nikto scan](../../assets/img/tryhackme/webscan/webscan1.png)
+	![nikto scan](/assets/img/tryhackme/webscan/webscan1.png)
 
 	`Apache/2.4.7`
 
@@ -77,7 +77,7 @@ should i keep mentioning about how you should be running `<tool> --help` and `gr
 
 	after running `zaproxy`, we're greeted with this. so after entering the *MACHINE_IP* in the URL, we click on **attack**
 
-	![zaproxy](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/webscan/webscan2.png)
+	![zaproxy](/assets/img/tryhackme/webscan/webscan2.png)
 
 2. Launch ZAP, what option to we set in order to specify what we are attacking?
 
@@ -85,7 +85,7 @@ should i keep mentioning about how you should be running `<tool> --help` and `gr
 
 3. Launch the attack against our target! Throughout the course of this attack you may notice this is very similar to Nikto. Similar to Nessus vs. OpenVAS, Nikto and ZAP and both offer different perspectives on a host and, as such, it's useful to know how to leverage both scanning tools in order to maximize your own visibility in a situation wherein 'noise' doesn't particularly matter.
 
-	![spider results](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/webscan/webscan3.png)
+	![spider results](/assets/img/tryhackme/webscan/webscan3.png)
 
 4. ZAP will discover a file that typically contains pages which well-behaved web indexing engines will read in order to know which sections of a site to avoid. What is the name of this file? (Lucky for us, our scanner isn't what we would call 'well-behaved'!)
 
@@ -101,7 +101,7 @@ should i keep mentioning about how you should be running `<tool> --help` and `gr
 
 7. This website doesn't force a secure connection by default and ZAP isn't pleased with it. Which related cookie is ZAP upset about?
 
-	![alerts](https://raw.githubusercontent.com/lordlabuckdas/lordlabuckdas.github.io/gh-pages/assets/img/tryhackme/webscan/webscan4.png)
+	![alerts](/assets/img/tryhackme/webscan/webscan4.png)
 
 	`httponly`
 

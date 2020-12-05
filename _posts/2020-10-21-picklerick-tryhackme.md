@@ -5,20 +5,19 @@ description: "Walkthrough of Pickle Rick from TryHackMe"
 date: 2020-10-21 00:00:00 +0530
 categories: [writeups, tryhackme]
 tags: [web, linux, privesc, ctf]
-pin: true
 ---
 
 **[Pickle Rick from TryHackMe](https://tryhackme.com/room/picklerick)**
 
 the description says that there is a web server up and running, so we go to the IP
 
-![homepage](../../assets/img/tryhackme/picklerick/picklerick1.png)
+![homepage](/assets/img/tryhackme/picklerick/picklerick1.png)
 
 so we have to ssh into the system and get the ingredients
 
 the source code of the page tells us that the username is `R1ckRul3s`
 
-![source code](../../assets/img/tryhackme/picklerick/picklerick2.png)
+![source code](/assets/img/tryhackme/picklerick/picklerick2.png)
 
 ok, i was wrong because ssh gave me this
 
@@ -80,11 +79,11 @@ so, i tried for a reverse shell with bash first, but that didn't work. so i went
 
 here, i could use all commands and even more!
 
-![privs](../../assets/img/tryhackme/picklerick/picklerick3.png)
+![privs](/assets/img/tryhackme/picklerick/picklerick3.png)
 
 so, i `cat`-ed the contents of `Sup3rS3retPickl3Ingred.txt` for the 1st ingredient
 
-![first ingredient](../../assets/img/tryhackme/picklerick/picklerick4.png)
+![first ingredient](/assets/img/tryhackme/picklerick/picklerick4.png)
 
 there was another file of interest named `clue.txt` that said
 
@@ -95,10 +94,10 @@ Look around the file system for the other ingredient.
 
 so, i ran `find`, `grep`-ing for `ingredient` and i found the second ingredient in `/home/rick/second\ ingredient`
 
-![second ingredient literally](../../assets/img/tryhackme/picklerick/picklerick5.png)
+![second ingredient literally](/assets/img/tryhackme/picklerick/picklerick5.png)
 
 from previous experience, i searched `/root` and luckily found the 3rd flag there!
 
-![final ingredient](../../assets/img/tryhackme/picklerick/picklerick6.png)
+![final ingredient](/assets/img/tryhackme/picklerick/picklerick6.png)
 
 overall, nice short CTF and v nice R&M refs
