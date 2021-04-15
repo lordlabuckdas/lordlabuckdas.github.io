@@ -3,7 +3,9 @@ title: Projects
 # a category to showcase my projects
 ---
 
-## GTFOO - [Link](https://github.com/lordlabuckdas/gtfoo) (WIP)
+Some projects I have worked on in the past
+
+## GTFOO - [Link](https://github.com/lordlabuckdas/gtfoo)
 
 * cli helper program for [GTFOBins](https://gtfobins.github.io/) written in `go`
 * fetches all data regarding the queried term from gtfobins
