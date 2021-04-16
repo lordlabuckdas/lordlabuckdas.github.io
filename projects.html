@@ -14,9 +14,9 @@ title: Projects
       <div class="project">
         <div class="project-name">
           <a href = "{{ project.url }}">{{ project.name }}</a>
+          <a style="float:right;"href = "{{ project.source_url }}">Source</a>
         </div>
         {% if project.source_url %}
-          <a style="float:right;"href = "{{ project.source_url }}">Source</a>
         <ul class="project-description">
           {% for line in project.description %}
             <li>{{ line }}</li>
