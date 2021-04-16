@@ -5,7 +5,10 @@
 *.pyc
 
 # jekyll debug
-_site
+_site/
+
+# drafts
+_drafts/
 
 # Jeykll Gemfile.lock
 Gemfile.lock
