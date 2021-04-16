@@ -1,36 +1,41 @@
-- name: "GTFOO"
+- name: GTFOO
   github:
-    repo: "gtfoo"
-  # url: "https://github.com/lordlabuckdas/gtfoo"
-  source_url: "https://github.com/lordlabuckdas/gtfoo"
+    repo: gtfoo
+  # url: "https://github.com/lordlabuckdas"
+  source_url: 'https://github.com/lordlabuckdas/gtfoo'
   description:
-    - CLI helper program for <a href="https://gtfobins.github.io/">GTFOBins</a> written in <code>Go(lang)</code>
+    - >-
+      CLI helper program for <a href="https://gtfobins.github.io/">GTFOBins</a>
+      written in <code>Go(lang)</code>
     - Fetches all data regarding the queried term from GTFOBins
-  tech: "Go, CLI helper, GTFOBins"
-
-- name: "NetScaPy"
+  tech: 'Go, CLI helper, GTFOBins'
+- name: NetScaPy
   github:
-    repo: "netscapy"
-  source_url: "https://github.com/lordlabuckdas/netscapy"
+    repo: netscapy
+  source_url: 'https://github.com/lordlabuckdas/netscapy'
   description:
-    - NetScaPy can be used to find all hosts online using ARP and probe all ports open in a host and display them with the name of their services
-    - By default, it scans for all famous ports
-  tech: "Python, <a href="https://scapy.net/">Scapy</a>, Network Scanner, Address Resolution Protocol"
-
-- name: "MangaPy"
+    - >-
+      NetScaPy can be used to find all hosts online using ARP and probe all
+      ports open in a host and display them with the name of their services
+    - 'By default, it scans for all famous ports'
+  tech: >-
+    Python, <a href="https://scapy.net/">Scapy</a>, Network Scanner, Address
+    Resolution Protocol
+- name: MangaPy
   github:
-    repo: "mangapy"
-  source_url: "https://github.com/lordlabuckdas/mangapy"
+    repo: mangapy
+  source_url: 'https://github.com/lordlabuckdas/mangapy'
   description:
     - Web Scraper written to fetch comics from MangaPanda
     - Automatically stitches all images retrieved to form a PDF
-  tech: "Python, BeautifulSoup, Requests, Web Scraping"
-
-- name: "Skripts"
+  tech: 'Python, BeautifulSoup, Requests, Web Scraping'
+- name: Skripts
   github:
-    repo: "skripts"
-  source_url: "https://github.com/lordlabuckdas/skripts"
+    repo: skripts
+  source_url: 'https://github.com/lordlabuckdas/skripts'
   description:
     - A collection of few handy scripts to automate and fasten day-to-day tasks
-    - Includes CLI scripts to fetch <i>this week in history</i>, <i>shorten url</i> and more
-  tech: "Bash, Python, CLI helper"
+    - >-
+      Includes CLI scripts to fetch <i>this week in history</i>, <i>shorten
+      url</i> and more
+  tech: 'Bash, Python, CLI helper'
