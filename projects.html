@@ -16,7 +16,7 @@ title: Projects
           <a href = "{{ project.url }}">{{ project.name }}</a>
         </div>
         {% if project.source_url %}
-          <span class="project-source"><a href = "{{ project.source_url }}">View Source</a></span>
+          <span><a href = "{{ project.source_url }}">Source Code</a></span>
         <ul class="project-description">
           {% for line in project.description %}
             <li>{{ line }}</li>
@@ -34,5 +34,3 @@ title: Projects
     {% endfor %}
   </div>
 </div>
-
-<script async defer src="https://buttons.github.io/buttons.js"></script>
