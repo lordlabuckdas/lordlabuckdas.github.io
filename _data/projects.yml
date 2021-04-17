@@ -6,8 +6,7 @@
   description:
     - >-
       CLI helper program for <a href="https://gtfobins.github.io/">GTFOBins</a>
-      written in <code>Go(lang)</code>
-    - Fetches all data regarding the queried term from GTFOBins
+    - Useful in getting those low-hanging fruits during a PenTest without leaving the terminal
   tech: 'Go, CLI helper, GTFOBins'
 - name: NetScaPy
   github:
@@ -15,9 +14,8 @@
   source_url: 'https://github.com/lordlabuckdas/netscapy'
   description:
     - >-
-      NetScaPy can be used to find all hosts online using ARP and probe all
-      ports open in a host and display them with the name of their services
-    - 'By default, it scans for all famous ports'
+      NetScaPy can be used to find all the hosts online in a subnet using ARP
+      and display all open ports along with the name of their services
   tech: >-
     Python, <a href="https://scapy.net/">Scapy</a>, Network Scanner, Address
     Resolution Protocol
@@ -38,4 +36,4 @@
     - >-
       Includes CLI scripts to fetch <i>this week in history</i>, <i>shorten
       url</i> and more
-  tech: 'Bash, Python, CLI helper'
+  tech: 'Bash, Python, Scripts'
