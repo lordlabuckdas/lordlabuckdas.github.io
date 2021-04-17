@@ -26,3 +26,6 @@ html { filter: contrast(100%) brightness(100%) saturate(100%); }.NIGHTEYE_Filter
   .post-content ul, .post-content ol { padding-left: 10px; }
   .site-footer .column { float: none; clear: both; width: auto; margin: 0px 0px 15px; }
 }@font-face { font-family: AvenirNext-Regular; font-style: normal; font-weight: normal; src: url("../font/avenirnext-regular.woff"); }@font-face { font-family: AvenirNext-Thin; font-style: normal; font-weight: normal; src: url("../font/avenirnext-thin.woff"); }@font-face { font-family: AvenirNext-Bold; font-style: normal; font-weight: normal; src: url("../font/avenirnext-bold.woff"); }@font-face { font-family: Aileron-Thin; font-style: normal; font-weight: normal; src: url("../font/Aileron-Thin.otf"); }@font-face { font-family: Roboto-Thin; font-style: normal; font-weight: normal; src: url("../font/Roboto-Thin.ttf"); }
+div.container {
+	background-color: rgb(28, 28, 33);
+}
