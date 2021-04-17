@@ -7,9 +7,9 @@
     <meta name = "viewport" content = "width=device-width">
 
     <!-- google site verif -->
-    <meta name="google-site-verification" content="TuEKuF1sEBI7ReAjZVknGSNpEOTTHeAu6GqbmmFCN40" />
+    <meta name="google-site-verification" content="{{ site.google-site-verif }}" />
 
-    <meta name = "author" content = "krishna">
+    <meta name = "author" content = "{{ site.author }}">
     {% if page.keywords %}
     <meta name = "keywords" content = "{{ page.keywords }} , {{ site.keywords }}">
     {% else %}
@@ -54,7 +54,8 @@
     <link rel = "canonical" href = "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
 
-    <link rel = "stylesheet" href = "{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+    <link rel = "stylesheet" href = "{{ '/assets/css/main.css' | prepend: site.baseurl }}">
+    <link rel = "stylesheet" href = "{{ '/assets/css/darkmode.css' | prepend: site.baseurl }}">
 
     <!-- <link rel = "apple-touch-icon" href = "{{ site.data.resources.apple-touch-icon }}"> -->
     <!-- <link rel = "shortcut icon" href = "{{ site.data.resources.favicon }}"> -->
