@@ -29,4 +29,4 @@ html { filter: contrast(100%) brightness(100%) saturate(100%); }.NIGHTEYE_Filter
 
 div.container {	background-color: rgb(28, 28, 33); }
 body.home-body { background-color: rgb(28, 28, 33) !important; }
-div.wrap { font-size: 1.5em; }
+a.site-title, nav.site-nav { font-size: 1.5em; }
