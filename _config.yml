@@ -8,12 +8,9 @@ gems:
   - jekyll-sitemap
 permalink: blogs/:title/
 title: krishna.log
-# email: me@dhavalkapil.com
-# description: Website of Dhaval Kapil, graduate student at Georgia Tech
 description: Ooo, whomst have stumbled upon Krishna's website?
 keywords: krishna, security, github, iit, patna, web, njack
 baseurl: ""
 url: https://lordlabuckdas.github.io
-# name: krishna\'s blog
 author: krishna
 google-site-verif: TuEKuF1sEBI7ReAjZVknGSNpEOTTHeAu6GqbmmFCN40

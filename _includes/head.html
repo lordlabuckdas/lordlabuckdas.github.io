@@ -36,14 +36,9 @@
     <meta property = "og:site_name" content = "{{ site.url }}">
     <!-- <meta property = "og:image" content = "{{ site.url }}{{ site.data.resources.avatar }}"> -->
 
-    <!-- <meta property="fb:admins" content="100006280205504"> -->
-
     <!-- Twitter Card meta data -->
     <meta name = "twitter:card" content = "summary">
     <meta name = "twitter:title" content = "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <!-- <meta name = "twitter:image" content = "{{ site.url }}{{ site.data.resources.avatar }}"> -->
-    <!-- <meta name = "twitter:creator" content = "@dhaval_kapil"> -->
-    <!-- <meta name = "twitter:site" content = "@dhaval_kapil"> -->
     <meta name = "twitter:url" content = "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     {% if page.excerpt %}
     <meta name = "twitter:description" content = "{{ page.excerpt }}">
@@ -59,10 +54,6 @@
 
     <!-- <link rel = "apple-touch-icon" href = "{{ site.data.resources.apple-touch-icon }}"> -->
     <!-- <link rel = "shortcut icon" href = "{{ site.data.resources.favicon }}"> -->
-
-    <!-- Edit later as a loop -->
-    <!-- <link rel="me" href="https://plus.google.com/+DhavalKapildk"> -->
-    <!-- <link rel = "me" href = "{{ site.data.params.facebook_url }}"> -->
 
     <script src = "//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script src = "/assets/js/script.js"></script>
