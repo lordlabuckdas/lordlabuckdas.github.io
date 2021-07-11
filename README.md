@@ -2,9 +2,9 @@
 
 # EZPZ Blog
 
-> Made using [Jekyll](https://jekyllrb.com/) and [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy).
-
 Personal website and blog
+
+inspired from dhavalkapil's blog
 
 ## License
 
