@@ -2,10 +2,15 @@
 layout: home
 ---
 
-Hello, I'm Krishna, a junior-year undergraduate at IIT Patna.
+```
+Welcome my son,
+Welcome to the machine
+```
 
-I'm interested in OSS and software security - web and network security in particular.
+Hello, I'm Krishna, a senior-year undergraduate at IIT Patna.
 
-I participate in CTFs with my team, [SithLords](https://ctftime.org/team/136490) and publish writeups [here](https://github.com/lordlabuckdas/writeups/).
+I'm interested in databases, distributed systems and software development in general.
+
+Find my Arch Linux config [here](https://github.com/lordlabuckdas/dotfiles).
 
 You can contact me via my email - `krishnan_1901ee50[at]iitp[dot]ac[dot]in`.
