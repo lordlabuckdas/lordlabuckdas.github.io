@@ -6,7 +6,7 @@ keywords: football, goalkeeper, neuer, guardiola
 
 # Keeper
 
-In football, the goal keeper is the last line of defence. This a high-stakes position and requires the best of the best players. Lightning-fast reflex, high agility and sharp thinking apart from the usual is absolutely necessary.
+In football, the goal keeper is the last line of defence. This crucial position requires the best of the best players. Lightning-fast reflexes, high agility and sharp thinking apart from the usual are absolutely necessary.
 
 ## Good keepers wait, great keepers run
 
