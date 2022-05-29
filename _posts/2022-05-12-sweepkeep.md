@@ -24,7 +24,7 @@ A sweeper keeper rushes off the goal line and tries to obtain possession of the 
 
 ### Case 1
 
-![stationary keeper](/img/sweepkeep/stat_keep.png)
+<img src="/img/sweepkeep/stat_keep.png" alt="stationary keeper" width="50%" height="50%">
 
 - The stationary keeper waits for the forward to make their shot.
 - The forward has a decent range to shoot their shot.
