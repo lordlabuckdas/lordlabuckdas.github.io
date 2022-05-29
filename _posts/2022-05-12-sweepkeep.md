@@ -24,14 +24,14 @@ A sweeper keeper rushes off the goal line and tries to obtain possession of the 
 
 ### Case 1
 
-<img src="/img/sweepkeep/stat_keep.png" alt="stationary keeper" width="50%" height="50%">
+<img src="/img/sweepkeep/stat_keep.png" alt="stationary keeper" width="75%" height="75%">
 
 - The stationary keeper waits for the forward to make their shot.
 - The forward has a decent range to shoot their shot.
 
 ### Case 2
 
-![forward closes in](/img/sweepkeep/forward_closes_in.png)
+<img src="/img/sweepkeep/forward_closes_in.png" alt="forward closes in" width="75%" height="75%">
 
 - The forward closes in.
 - Shot range widens for the forward.
@@ -39,7 +39,7 @@ A sweeper keeper rushes off the goal line and tries to obtain possession of the 
 
 ### Case 3
 
-![sweeper keeper](/img/sweepkeep/sweep_keep.png)
+<img src="/img/sweepkeep/sweep_keep.png" alt="sweeper keeper" width="75%" height="75%">
 
 - The keeper lunges forward restricting the shot range of the forward.
 - The forward is under pressure to take the shot ASAP with every second costing dearly.
