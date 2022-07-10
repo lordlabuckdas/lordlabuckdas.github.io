@@ -8,6 +8,9 @@
 
 * :not(ul) {
   margin: 0;
+}
+
+* {
   padding: 0;
 }
 
@@ -163,7 +166,7 @@ ul.posts {
 
   #post ul,
   #post ol {
-    margin-left: 1.35em;
+    margin-left: 1.35em !important;
   }
 
   #post code {
