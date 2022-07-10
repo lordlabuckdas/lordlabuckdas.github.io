@@ -48,4 +48,4 @@ A sweeper keeper rushes off the goal line and tries to obtain possession of the 
 
 Sweeper keepers contribute and build the play for their team. They push forward the entire formation.
 
-Unfortunately, sweep keeping is a high-risk high-reward tactic. The forward can opt to chip the ball, pass the ball back or any of the other 51 alternatives. Mistakes of sweeper keepers can lead to long range goals. Think Zlatan's 30-yard bicycle kick goal vs England [[VID](https://www.youtube.com/watch?v=Xh_KNH8QqSw)].
+Unfortunately, sweep keeping is a high-risk high-reward tactic. The forward can opt to chip the ball, pass the ball back or any of the other 51 alternatives. Mistakes of sweeper keepers can lead to long range goals. Think Zlatan's 30-yard bicycle kick goal vs England [[VIDEO](https://www.youtube.com/watch?v=Xh_KNH8QqSw)].
