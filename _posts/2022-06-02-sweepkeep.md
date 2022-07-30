@@ -19,8 +19,8 @@ A sweeper keeper rushes off the goal line and tries to obtain possession of the 
 - The reach of the keeper will be a line segment of fixed length since they can only jump a certain distance in either side.
 - Taking a modest reach for the keeper, it will be the base of the red triangle.
 - The apex of the triangles will be the forward.
-- Red triangle because if the forward shoots in that area, the keeper will block it.
-- Green triangle because it will be a sure goal.
+- Red because if the forward shoots in that area, the keeper will most likely block it.
+- Green because it will surely be a goal.
 
 ### Case 1
 
